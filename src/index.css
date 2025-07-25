@@ -112,3 +112,33 @@ img{
     text-decoration: line-through ;
     color:#48A300 ;
 }
+.do-edit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -10px auto 0 auto;
+    gap: 20px;
+}
+#task-edit{
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    background-color:#48A30012;
+    border: 1px solid lightgray;
+}
+#task-edit:focus{
+    outline: none;
+    border: 1px solid  #48A300;
+}
+.edit{
+    background-color: antiquewhite;
+    height: 25px;
+    width: 100px;
+    border: 2px solid rgb(231, 184, 123);
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: -10px;
+    padding-top: 2px;
+}
